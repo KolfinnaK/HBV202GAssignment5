@@ -46,6 +46,8 @@ public class IntStackTest {
     public void testPopReturnsPushedValue() {
         stack.push(10);
         assertEquals(10, stack.pop());
+        stack.push(5);
+        assertEquals(5,stack.pop());
     }
 
 
